@@ -24,7 +24,7 @@ app.layout = html.Div([
         html.H4('Evaluating UFC Fight Data 1993-2019'),
         html.P("Isaac Dorfman - DCDAT35 Capstone Project")],
         style = {'padding' : '15px' ,'backgroundColor' : '#546D74'}, className='nine columns'),
-    html.Div([html.Img(src='data:image/png;base64,{}'.format(logo.decode()), style={'width':'270px'}),],className='three columns')],className='twelve columns'),
+    html.Div([html.Img(src='data:image/png;base64,{}'.format(logo.decode()), style={'width':'265px'}),],className='three columns')],className='twelve columns'),
     html.Br(),
     html.Div([dcc.Tabs(id="tabs-template", value='tab-1-template', children=[
         dcc.Tab(label='Scoring Criteria', value='tab-1-template'),
