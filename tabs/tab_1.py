@@ -10,12 +10,12 @@ tab_1_layout = html.Div([
     html.Div([
     html.Div([
         html.Br(),
-            dcc.Markdown("Round winner is awarded 10 points with the round loser receiving 9 points or less."),
-                dcc.Markdown("* Scoring is first based on effective striking and/or grappling."),
-                dcc.Markdown("* The second scoring metric is effective aggressiveness in attempting to pursue a finish."),
-                dcc.Markdown("* The final scoring metric is fight area control; e.g. who is dictating where the fight is occuring."),
+            dcc.Markdown("&nbsp;&nbsp;&nbsp;&nbsp;Round winner is awarded 10 points with the round loser receiving 9 points or less."),
+                dcc.Markdown("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* Scoring is first based on effective striking and/or grappling."),
+                dcc.Markdown("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* The second scoring metric is effective aggressiveness in attempting to pursue a finish."),
+                dcc.Markdown("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* The final scoring metric is fight area control; e.g. who is dictating where the fight is &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;occuring."),
         html.A('View code on github', href='https://github.com/ihdorfman/DCDAT35final'),
-    ],className='nine columns'),
+    ],style={'fontSize':18}, className='nine columns'),
     html.Br(),
     html.Div([
     html.Img(src='data:image/png;base64,{}'.format(decision.decode()), style={'height':'300px'}),
